@@ -10,9 +10,9 @@ BIN=/opt/vagrant/bin/vagrant
 DEP1=${INSTALL}/builder-3.2.0.gem
 DEP2=${INSTALL}/i18n-0.6.9.gem
 DEP3=${INSTALL}/trollop-2.0.gem
-DEP4=${INSTALL}/nokogiri-1.6.3.1.gem
+DEP4=${INSTALL}/nokogiri-1.5.11.gem
 DEP5=${INSTALL}/rbvmomi-1.8.2.gem
-DEP6=${INSTALL}/vagrant-vsphere-0.13.0p3.gem
+DEP6=${INSTALL}/vagrant-vsphere-0.13.0p4.gem
 
 if [ -f ${BIN} ]; then
   for pkg in ${DEP1} ${DEP2} ${DEP3} ${DEP4} ${DEP5} ${DEP6}; do
