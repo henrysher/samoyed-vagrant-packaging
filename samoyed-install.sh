@@ -3,7 +3,7 @@
 SCRIPT=`readlink -f $0 | xargs dirname`
 INSTALL=${SCRIPT}/install
 
-VAGRANT=${INSTALL}/vagrant_1.6.5_x86_64.rpm
+VAGRANT=${INSTALL}/vagrant_1.6.3_x86_64.rpm
 rpm -ivh ${VAGRANT} --force
 
 BIN=/opt/vagrant/bin/vagrant
